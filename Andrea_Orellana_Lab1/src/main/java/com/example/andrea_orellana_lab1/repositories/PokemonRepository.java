@@ -15,4 +15,5 @@ public class PokemonRepository {
     public List<Pokemon> findAll() {
         return pokemonList.getPokemons();
     }
+
 }
