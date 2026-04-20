@@ -15,6 +15,6 @@ public class Pokemon {
     private String name;
     private PokemonType pokemonType;
     private List<PokemonType> pokemonDebilities;
-    private String zone;
-    private String region;
+    private PokemonZone zone;
+    private PokemonRegions region;
 }

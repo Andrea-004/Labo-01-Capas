@@ -12,7 +12,7 @@ import java.util.List;
 public class PokemonRepository {
     private final PokemonList pokemonList;
 
-    public List<Pokemon> findByType() {
+    public List<Pokemon> findAll() {
         return pokemonList.getPokemons();
     }
 }
